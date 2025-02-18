@@ -41,6 +41,7 @@ export default function languagesList() {
             <Languages
                 key={language.id}
                 title={language.title}
+                description={language.description}
 
             />
         )
