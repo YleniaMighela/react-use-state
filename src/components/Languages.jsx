@@ -9,10 +9,12 @@ export default function languages(props) {
                 <button className="button" onClick={() => setIsOpen((current) => !current)}>
                     {props.title}
                 </button>
+
+                <div className='card'>
+                    {isOpen && props.description}
+                </div>
             </div>
-            <div>
-                {isOpen && props.description}
-            </div>
+
 
         </>
     )

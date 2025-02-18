@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+header {
+    /* background-color: palevioletred; */
+}
+
+/* MAIN */
+
+.renderlanguage {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 60px;
+
+}
+
+.button {
+    /* display: flex;
+    justify-content: space-around; */
+    background-color: #0e6efc;
+    color: white;
+    padding: 15px;
+    border-radius: 10%;
+    font-size: 15px;
+
+}
+
+.card {
+    padding-top: 50px;
+
+}
