@@ -3,6 +3,7 @@ import { useState } from 'react'
 // import viteLogo from '/vite.svg'
 // import './App.css'
 import Header from "./components/Header.jsx"
+import Main from "./components/Main.jsx"
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
         <>
 
             <Header />
+            <Main />
 
 
         </>
