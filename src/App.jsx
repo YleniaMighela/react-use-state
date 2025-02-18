@@ -4,6 +4,9 @@ import { useState } from 'react'
 // import './App.css'
 import Header from "./components/Header.jsx"
 import Main from "./components/Main.jsx"
+import LanguagesList from "./components/LanguagesList.jsx"
+
+
 
 function App() {
 
@@ -12,7 +15,7 @@ function App() {
 
             <Header />
             <Main />
-
+            <LanguagesList />
 
         </>
     )
